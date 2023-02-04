@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.496413, b: 0.57481635, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657922, g: 0.49641347, b: 0.5748169, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -324,7 +324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76e85c74d34b7449b8046e515ccb87b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefabs: []
+  animalPrefabs:
+  - {fileID: 3488855494334112103, guid: 4eeb1b570c2754066921e1c9e8d26045, type: 3}
+  - {fileID: 5186074022976804798, guid: 397111c5ff5874a759edd84d19f803b9, type: 3}
+  - {fileID: 2679125469865910498, guid: 94f710842537e45d3bb8e286915e58c1, type: 3}
+  animalIndex: 2
 --- !u!4 &248968301
 Transform:
   m_ObjectHideFlags: 0
